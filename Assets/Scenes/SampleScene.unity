@@ -409,6 +409,7 @@ GameObject:
   - component: {fileID: 1499769194}
   - component: {fileID: 1499769198}
   - component: {fileID: 1499769199}
+  - component: {fileID: 1499769200}
   m_Layer: 0
   m_Name: The rock
   m_TagString: Untagged
@@ -429,8 +430,8 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_LinearDrag: 0.5
+  m_AngularDrag: 15
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -486,6 +487,19 @@ CircleCollider2D:
   m_Offset: {x: 1.2, y: 0.62}
   serializedVersion: 2
   m_Radius: 0.34
+--- !u!114 &1499769200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499769193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa8e9a8e4c3247740a66542f1493d2e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flttorqueAmount: 8
 --- !u!1 &1653660679
 GameObject:
   m_ObjectHideFlags: 0
@@ -953,7 +967,7 @@ SurfaceEffector2D:
   m_ColliderMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Speed: 10
+  m_Speed: 15
   m_SpeedVariation: 0
   m_ForceScale: 0.1
   m_UseContactForce: 0
