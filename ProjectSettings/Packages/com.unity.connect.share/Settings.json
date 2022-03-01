@@ -2,6 +2,7 @@
     "m_Name": "Settings",
     "m_Path": "ProjectSettings/Packages/com.unity.connect.share/Settings.json",
     "m_Dictionary": {
+<<<<<<< HEAD
         "m_DictionaryValues": [
             {
                 "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
@@ -9,5 +10,8 @@
                 "value": "{\"m_Value\":\"C:/Users/Kris/Documents/Morrisville/Spring 2022/Cita 212/Temp;;;;;;;;;\"}"
             }
         ]
+=======
+        "m_DictionaryValues": []
+>>>>>>> parent of fa1724f (Revert "Public Access Modifier")
     }
 }
