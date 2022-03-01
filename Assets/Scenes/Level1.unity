@@ -12025,6 +12025,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flttorqueAmount: 8
+  fltBoostSpeed: 35
+  fltBaseSpeed: 20
 --- !u!114 &1499769201
 MonoBehaviour:
   m_ObjectHideFlags: 0
